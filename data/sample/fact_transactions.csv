@@ -1,0 +1,328 @@
+transaction_id,transaction_date,description,merchant_id,category_id,payment_method_id,account_id,transaction_type,amount,is_recurring,notes
+1001,2025-01-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1002,2025-01-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1003,2025-01-05,Utilities payment,214,302,405,501,Expense,458.7,TRUE,Electricity and utilities
+1004,2025-01-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1005,2025-01-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1006,2025-01-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1007,2025-01-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1008,2025-01-08,Grocery shopping,204,303,401,501,Expense,105.12,FALSE,Variable grocery expense
+1009,2025-01-22,Grocery shopping,203,303,401,501,Expense,186.29,FALSE,Variable grocery expense
+1010,2025-01-01,Grocery shopping,203,303,401,501,Expense,119.35,FALSE,Variable grocery expense
+1011,2025-01-18,Grocery shopping,203,303,401,501,Expense,208.88,FALSE,Variable grocery expense
+1012,2025-01-08,Grocery shopping,204,303,404,501,Expense,186.07,FALSE,Variable grocery expense
+1013,2025-01-25,Convenience store purchase,205,303,401,501,Expense,53.4,FALSE,Small daily purchase
+1014,2025-01-11,Convenience store purchase,205,303,404,501,Expense,23.55,FALSE,Small daily purchase
+1015,2025-01-04,Restaurant visit,219,304,401,501,Expense,96.29,FALSE,Eating out
+1016,2025-01-12,Restaurant visit,219,304,404,501,Expense,126.5,FALSE,Eating out
+1017,2025-01-26,Restaurant visit,219,304,401,501,Expense,143.51,FALSE,Eating out
+1018,2025-01-18,Restaurant visit,219,304,401,501,Expense,176.37,FALSE,Eating out
+1019,2025-01-03,Public transport ticket,211,305,404,501,Expense,77.74,FALSE,Transport expense
+1020,2025-01-23,Public transport ticket,210,305,401,501,Expense,86.13,FALSE,Transport expense
+1021,2025-01-25,Public transport ticket,211,305,401,501,Expense,105.53,FALSE,Transport expense
+1022,2025-01-28,Fuel purchase,212,306,401,501,Expense,197.17,FALSE,Fuel expense
+1023,2025-01-09,Pharmacy purchase,216,307,401,501,Expense,94.41,FALSE,Health-related expense
+1024,2025-01-06,Cinema or event ticket,218,308,404,501,Expense,72.3,FALSE,Entertainment expense
+1025,2025-01-22,Cinema or event ticket,218,308,404,501,Expense,108.69,FALSE,Entertainment expense
+1026,2025-01-22,Online course purchase,220,313,401,501,Expense,214.01,FALSE,Learning and development
+1027,2025-02-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1028,2025-02-20,Freelance project income,202,102,402,501,Income,805.37,FALSE,Additional project income
+1029,2025-02-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1030,2025-02-05,Utilities payment,214,302,405,501,Expense,473.95,TRUE,Electricity and utilities
+1031,2025-02-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1032,2025-02-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1033,2025-02-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1034,2025-02-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1035,2025-02-13,Grocery shopping,204,303,404,501,Expense,258.11,FALSE,Variable grocery expense
+1036,2025-02-22,Grocery shopping,203,303,404,501,Expense,231.71,FALSE,Variable grocery expense
+1037,2025-02-08,Grocery shopping,203,303,401,501,Expense,224.91,FALSE,Variable grocery expense
+1038,2025-02-09,Grocery shopping,204,303,401,501,Expense,117.98,FALSE,Variable grocery expense
+1039,2025-02-07,Grocery shopping,204,303,404,501,Expense,151.21,FALSE,Variable grocery expense
+1040,2025-02-05,Convenience store purchase,205,303,404,501,Expense,22.68,FALSE,Small daily purchase
+1041,2025-02-24,Convenience store purchase,205,303,403,501,Expense,44.64,FALSE,Small daily purchase
+1042,2025-02-24,Convenience store purchase,205,303,403,501,Expense,38.56,FALSE,Small daily purchase
+1043,2025-02-19,Convenience store purchase,205,303,404,501,Expense,34.91,FALSE,Small daily purchase
+1044,2025-02-05,Convenience store purchase,205,303,403,501,Expense,42.14,FALSE,Small daily purchase
+1045,2025-02-28,Restaurant visit,219,304,401,501,Expense,65.63,FALSE,Eating out
+1046,2025-02-06,Restaurant visit,219,304,404,501,Expense,125.52,FALSE,Eating out
+1047,2025-02-13,Public transport ticket,211,305,404,501,Expense,117.11,FALSE,Transport expense
+1048,2025-02-28,Public transport ticket,210,305,401,501,Expense,88.17,FALSE,Transport expense
+1049,2025-02-18,Public transport ticket,211,305,404,501,Expense,31.16,FALSE,Transport expense
+1050,2025-02-14,Fuel purchase,212,306,401,501,Expense,206.89,FALSE,Fuel expense
+1051,2025-02-24,Cinema or event ticket,218,308,404,501,Expense,137.05,FALSE,Entertainment expense
+1052,2025-02-25,Clothes shopping,208,311,401,501,Expense,327.69,FALSE,Clothing purchase
+1053,2025-03-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1054,2025-03-15,Performance bonus,201,103,402,501,Income,874.49,FALSE,Occasional bonus
+1055,2025-03-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1056,2025-03-05,Utilities payment,214,302,405,501,Expense,456.3,TRUE,Electricity and utilities
+1057,2025-03-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1058,2025-03-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1059,2025-03-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1060,2025-03-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1061,2025-03-05,Grocery shopping,203,303,404,501,Expense,217.25,FALSE,Variable grocery expense
+1062,2025-03-20,Grocery shopping,203,303,404,501,Expense,167.95,FALSE,Variable grocery expense
+1063,2025-03-12,Grocery shopping,203,303,404,501,Expense,123.1,FALSE,Variable grocery expense
+1064,2025-03-19,Grocery shopping,203,303,401,501,Expense,95.42,FALSE,Variable grocery expense
+1065,2025-03-27,Grocery shopping,204,303,401,501,Expense,256.04,FALSE,Variable grocery expense
+1066,2025-03-05,Grocery shopping,203,303,404,501,Expense,250.43,FALSE,Variable grocery expense
+1067,2025-03-09,Grocery shopping,203,303,404,501,Expense,253.59,FALSE,Variable grocery expense
+1068,2025-03-23,Convenience store purchase,205,303,404,501,Expense,36.94,FALSE,Small daily purchase
+1069,2025-03-22,Convenience store purchase,205,303,403,501,Expense,35.54,FALSE,Small daily purchase
+1070,2025-03-17,Convenience store purchase,205,303,404,501,Expense,21.66,FALSE,Small daily purchase
+1071,2025-03-03,Restaurant visit,219,304,404,501,Expense,47.84,FALSE,Eating out
+1072,2025-03-18,Restaurant visit,219,304,401,501,Expense,124.44,FALSE,Eating out
+1073,2025-03-01,Restaurant visit,219,304,401,501,Expense,140.56,FALSE,Eating out
+1074,2025-03-08,Public transport ticket,210,305,401,501,Expense,105.96,FALSE,Transport expense
+1075,2025-03-03,Public transport ticket,210,305,404,501,Expense,86.9,FALSE,Transport expense
+1076,2025-03-07,Doctor appointment,217,307,401,501,Expense,230.89,FALSE,Medical visit
+1077,2025-03-19,Cinema or event ticket,218,308,404,501,Expense,60.51,FALSE,Entertainment expense
+1078,2025-03-16,Cinema or event ticket,218,308,404,501,Expense,54.99,FALSE,Entertainment expense
+1079,2025-03-04,Cinema or event ticket,218,308,404,501,Expense,72.2,FALSE,Entertainment expense
+1080,2025-04-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1081,2025-04-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1082,2025-04-05,Utilities payment,214,302,405,501,Expense,419.89,TRUE,Electricity and utilities
+1083,2025-04-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1084,2025-04-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1085,2025-04-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1086,2025-04-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1087,2025-04-22,Grocery shopping,203,303,401,501,Expense,90.91,FALSE,Variable grocery expense
+1088,2025-04-26,Grocery shopping,204,303,401,501,Expense,124.76,FALSE,Variable grocery expense
+1089,2025-04-18,Grocery shopping,203,303,404,501,Expense,105.23,FALSE,Variable grocery expense
+1090,2025-04-09,Grocery shopping,203,303,404,501,Expense,124.97,FALSE,Variable grocery expense
+1091,2025-04-15,Grocery shopping,203,303,401,501,Expense,89.11,FALSE,Variable grocery expense
+1092,2025-04-03,Grocery shopping,203,303,401,501,Expense,109.94,FALSE,Variable grocery expense
+1093,2025-04-16,Grocery shopping,204,303,401,501,Expense,235.64,FALSE,Variable grocery expense
+1094,2025-04-06,Convenience store purchase,205,303,404,501,Expense,15.12,FALSE,Small daily purchase
+1095,2025-04-13,Convenience store purchase,205,303,404,501,Expense,65.96,FALSE,Small daily purchase
+1096,2025-04-10,Restaurant visit,219,304,404,501,Expense,139.04,FALSE,Eating out
+1097,2025-04-24,Restaurant visit,219,304,404,501,Expense,65.9,FALSE,Eating out
+1098,2025-04-10,Restaurant visit,219,304,401,501,Expense,175.78,FALSE,Eating out
+1099,2025-04-19,Restaurant visit,219,304,401,501,Expense,145.98,FALSE,Eating out
+1100,2025-04-02,Restaurant visit,219,304,401,501,Expense,123.86,FALSE,Eating out
+1101,2025-04-28,Public transport ticket,210,305,401,501,Expense,116.08,FALSE,Transport expense
+1102,2025-04-03,Public transport ticket,210,305,401,501,Expense,79.5,FALSE,Transport expense
+1103,2025-04-22,Public transport ticket,210,305,404,501,Expense,31.99,FALSE,Transport expense
+1104,2025-04-19,Public transport ticket,210,305,401,501,Expense,81.94,FALSE,Transport expense
+1105,2025-04-14,Fuel purchase,212,306,401,501,Expense,291.75,FALSE,Fuel expense
+1106,2025-04-19,Pharmacy purchase,216,307,401,501,Expense,102.73,FALSE,Health-related expense
+1107,2025-04-07,Cinema or event ticket,218,308,404,501,Expense,60.06,FALSE,Entertainment expense
+1108,2025-04-13,Cinema or event ticket,218,308,401,501,Expense,105.53,FALSE,Entertainment expense
+1109,2025-04-10,Online course purchase,221,313,401,501,Expense,149.56,FALSE,Learning and development
+1110,2025-05-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1111,2025-05-20,Freelance project income,202,102,402,501,Income,1502.24,FALSE,Additional project income
+1112,2025-05-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1113,2025-05-05,Utilities payment,214,302,405,501,Expense,362.33,TRUE,Electricity and utilities
+1114,2025-05-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1115,2025-05-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1116,2025-05-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1117,2025-05-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1118,2025-05-03,Grocery shopping,203,303,401,501,Expense,171.06,FALSE,Variable grocery expense
+1119,2025-05-12,Grocery shopping,203,303,401,501,Expense,238.27,FALSE,Variable grocery expense
+1120,2025-05-10,Grocery shopping,204,303,401,501,Expense,158.87,FALSE,Variable grocery expense
+1121,2025-05-20,Grocery shopping,204,303,401,501,Expense,200.22,FALSE,Variable grocery expense
+1122,2025-05-22,Grocery shopping,204,303,401,501,Expense,249.01,FALSE,Variable grocery expense
+1123,2025-05-09,Grocery shopping,203,303,401,501,Expense,240.15,FALSE,Variable grocery expense
+1124,2025-05-09,Convenience store purchase,205,303,404,501,Expense,48.27,FALSE,Small daily purchase
+1125,2025-05-23,Convenience store purchase,205,303,404,501,Expense,26.2,FALSE,Small daily purchase
+1126,2025-05-21,Convenience store purchase,205,303,404,501,Expense,42.8,FALSE,Small daily purchase
+1127,2025-05-28,Restaurant visit,219,304,401,501,Expense,57.46,FALSE,Eating out
+1128,2025-05-14,Restaurant visit,219,304,404,501,Expense,50.95,FALSE,Eating out
+1129,2025-05-11,Restaurant visit,219,304,401,501,Expense,131.01,FALSE,Eating out
+1130,2025-05-09,Restaurant visit,219,304,401,501,Expense,145.07,FALSE,Eating out
+1131,2025-05-23,Public transport ticket,211,305,401,501,Expense,31.19,FALSE,Transport expense
+1132,2025-05-23,Public transport ticket,210,305,401,501,Expense,103.46,FALSE,Transport expense
+1133,2025-05-19,Public transport ticket,210,305,404,501,Expense,32.74,FALSE,Transport expense
+1134,2025-05-10,Public transport ticket,211,305,401,501,Expense,109.89,FALSE,Transport expense
+1135,2025-05-22,Cinema or event ticket,218,308,401,501,Expense,105.03,FALSE,Entertainment expense
+1136,2025-05-12,Clothes shopping,209,311,401,501,Expense,490.84,FALSE,Clothing purchase
+1137,2025-06-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1138,2025-06-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1139,2025-06-05,Utilities payment,214,302,405,501,Expense,477.41,TRUE,Electricity and utilities
+1140,2025-06-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1141,2025-06-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1142,2025-06-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1143,2025-06-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1144,2025-06-26,Grocery shopping,203,303,401,501,Expense,238.65,FALSE,Variable grocery expense
+1145,2025-06-06,Grocery shopping,203,303,404,501,Expense,220.83,FALSE,Variable grocery expense
+1146,2025-06-26,Grocery shopping,204,303,401,501,Expense,128.03,FALSE,Variable grocery expense
+1147,2025-06-13,Grocery shopping,203,303,401,501,Expense,234.55,FALSE,Variable grocery expense
+1148,2025-06-07,Grocery shopping,203,303,404,501,Expense,142.94,FALSE,Variable grocery expense
+1149,2025-06-08,Convenience store purchase,205,303,401,501,Expense,51.3,FALSE,Small daily purchase
+1150,2025-06-13,Convenience store purchase,205,303,404,501,Expense,30.32,FALSE,Small daily purchase
+1151,2025-06-03,Convenience store purchase,205,303,404,501,Expense,34.31,FALSE,Small daily purchase
+1152,2025-06-22,Restaurant visit,219,304,404,501,Expense,171.8,FALSE,Eating out
+1153,2025-06-04,Restaurant visit,219,304,404,501,Expense,69.11,FALSE,Eating out
+1154,2025-06-09,Restaurant visit,219,304,401,501,Expense,59.63,FALSE,Eating out
+1155,2025-06-14,Restaurant visit,219,304,404,501,Expense,143.35,FALSE,Eating out
+1156,2025-06-11,Restaurant visit,219,304,404,501,Expense,126.84,FALSE,Eating out
+1157,2025-06-04,Public transport ticket,211,305,401,501,Expense,45.47,FALSE,Transport expense
+1158,2025-06-23,Public transport ticket,211,305,401,501,Expense,71.99,FALSE,Transport expense
+1159,2025-06-26,Public transport ticket,210,305,404,501,Expense,63.13,FALSE,Transport expense
+1160,2025-06-22,Public transport ticket,211,305,404,501,Expense,86.34,FALSE,Transport expense
+1161,2025-06-04,Fuel purchase,212,306,401,501,Expense,302.36,FALSE,Fuel expense
+1162,2025-06-17,Cinema or event ticket,218,308,404,501,Expense,105.02,FALSE,Entertainment expense
+1163,2025-06-11,Cinema or event ticket,218,308,404,501,Expense,108.21,FALSE,Entertainment expense
+1164,2025-06-18,Electronics purchase,208,312,401,501,Expense,553.47,FALSE,Electronics purchase
+1165,2025-07-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1166,2025-07-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1167,2025-07-05,Utilities payment,214,302,405,501,Expense,463.04,TRUE,Electricity and utilities
+1168,2025-07-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1169,2025-07-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1170,2025-07-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1171,2025-07-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1172,2025-07-20,Grocery shopping,203,303,404,501,Expense,153.09,FALSE,Variable grocery expense
+1173,2025-07-10,Grocery shopping,203,303,404,501,Expense,117.83,FALSE,Variable grocery expense
+1174,2025-07-15,Grocery shopping,204,303,404,501,Expense,159.59,FALSE,Variable grocery expense
+1175,2025-07-17,Grocery shopping,203,303,404,501,Expense,222.87,FALSE,Variable grocery expense
+1176,2025-07-22,Grocery shopping,203,303,401,501,Expense,131.08,FALSE,Variable grocery expense
+1177,2025-07-03,Grocery shopping,204,303,401,501,Expense,201.1,FALSE,Variable grocery expense
+1178,2025-07-26,Convenience store purchase,205,303,401,501,Expense,23.1,FALSE,Small daily purchase
+1179,2025-07-02,Convenience store purchase,205,303,401,501,Expense,69.12,FALSE,Small daily purchase
+1180,2025-07-20,Convenience store purchase,205,303,401,501,Expense,40.05,FALSE,Small daily purchase
+1181,2025-07-23,Restaurant visit,219,304,404,501,Expense,111.74,FALSE,Eating out
+1182,2025-07-08,Restaurant visit,219,304,401,501,Expense,133.57,FALSE,Eating out
+1183,2025-07-01,Restaurant visit,219,304,401,501,Expense,150.09,FALSE,Eating out
+1184,2025-07-06,Public transport ticket,211,305,401,501,Expense,75.74,FALSE,Transport expense
+1185,2025-07-28,Public transport ticket,210,305,404,501,Expense,33.33,FALSE,Transport expense
+1186,2025-07-15,Pharmacy purchase,216,307,401,501,Expense,120.11,FALSE,Health-related expense
+1187,2025-07-20,Cinema or event ticket,218,308,404,501,Expense,134.75,FALSE,Entertainment expense
+1188,2025-07-15,Cinema or event ticket,218,308,404,501,Expense,122.21,FALSE,Entertainment expense
+1189,2025-07-18,Cinema or event ticket,218,308,404,501,Expense,129.21,FALSE,Entertainment expense
+1190,2025-07-24,Travel accommodation,223,314,401,501,Expense,1461.49,FALSE,Travel expense
+1191,2025-08-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1192,2025-08-20,Freelance project income,202,102,402,501,Income,1140.08,FALSE,Additional project income
+1193,2025-08-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1194,2025-08-05,Utilities payment,214,302,405,501,Expense,477.8,TRUE,Electricity and utilities
+1195,2025-08-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1196,2025-08-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1197,2025-08-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1198,2025-08-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1199,2025-08-25,Grocery shopping,204,303,404,501,Expense,192.81,FALSE,Variable grocery expense
+1200,2025-08-15,Grocery shopping,204,303,401,501,Expense,208.44,FALSE,Variable grocery expense
+1201,2025-08-09,Grocery shopping,203,303,404,501,Expense,137.55,FALSE,Variable grocery expense
+1202,2025-08-05,Grocery shopping,203,303,401,501,Expense,121.63,FALSE,Variable grocery expense
+1203,2025-08-23,Grocery shopping,203,303,401,501,Expense,91.56,FALSE,Variable grocery expense
+1204,2025-08-11,Grocery shopping,204,303,404,501,Expense,154.84,FALSE,Variable grocery expense
+1205,2025-08-27,Grocery shopping,203,303,404,501,Expense,150.11,FALSE,Variable grocery expense
+1206,2025-08-28,Convenience store purchase,205,303,403,501,Expense,35.92,FALSE,Small daily purchase
+1207,2025-08-01,Convenience store purchase,205,303,404,501,Expense,31.42,FALSE,Small daily purchase
+1208,2025-08-28,Restaurant visit,219,304,404,501,Expense,117.66,FALSE,Eating out
+1209,2025-08-24,Restaurant visit,219,304,401,501,Expense,110.91,FALSE,Eating out
+1210,2025-08-09,Restaurant visit,219,304,404,501,Expense,110.56,FALSE,Eating out
+1211,2025-08-13,Restaurant visit,219,304,404,501,Expense,135.3,FALSE,Eating out
+1212,2025-08-26,Restaurant visit,219,304,404,501,Expense,142.76,FALSE,Eating out
+1213,2025-08-05,Public transport ticket,210,305,404,501,Expense,79.19,FALSE,Transport expense
+1214,2025-08-22,Public transport ticket,210,305,401,501,Expense,84.27,FALSE,Transport expense
+1215,2025-08-05,Public transport ticket,211,305,401,501,Expense,25.03,FALSE,Transport expense
+1216,2025-08-13,Fuel purchase,212,306,401,501,Expense,235.65,FALSE,Fuel expense
+1217,2025-08-11,Cinema or event ticket,218,308,404,501,Expense,114.93,FALSE,Entertainment expense
+1218,2025-08-13,Cinema or event ticket,218,308,404,501,Expense,113.96,FALSE,Entertainment expense
+1219,2025-08-27,Clothes shopping,209,311,401,501,Expense,238.3,FALSE,Clothing purchase
+1220,2025-08-03,Travel accommodation,223,314,401,501,Expense,1070.31,FALSE,Travel expense
+1221,2025-09-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1222,2025-09-15,Performance bonus,201,103,402,501,Income,1324.32,FALSE,Occasional bonus
+1223,2025-09-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1224,2025-09-05,Utilities payment,214,302,405,501,Expense,358.85,TRUE,Electricity and utilities
+1225,2025-09-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1226,2025-09-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1227,2025-09-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1228,2025-09-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1229,2025-09-21,Grocery shopping,203,303,401,501,Expense,220.62,FALSE,Variable grocery expense
+1230,2025-09-25,Grocery shopping,203,303,401,501,Expense,250.93,FALSE,Variable grocery expense
+1231,2025-09-27,Grocery shopping,203,303,401,501,Expense,191.84,FALSE,Variable grocery expense
+1232,2025-09-05,Grocery shopping,203,303,404,501,Expense,200.5,FALSE,Variable grocery expense
+1233,2025-09-15,Grocery shopping,203,303,404,501,Expense,218.04,FALSE,Variable grocery expense
+1234,2025-09-20,Grocery shopping,203,303,401,501,Expense,220.0,FALSE,Variable grocery expense
+1235,2025-09-10,Convenience store purchase,205,303,401,501,Expense,46.83,FALSE,Small daily purchase
+1236,2025-09-10,Convenience store purchase,205,303,403,501,Expense,52.25,FALSE,Small daily purchase
+1237,2025-09-13,Convenience store purchase,205,303,404,501,Expense,66.78,FALSE,Small daily purchase
+1238,2025-09-03,Restaurant visit,219,304,401,501,Expense,58.76,FALSE,Eating out
+1239,2025-09-25,Restaurant visit,219,304,404,501,Expense,159.79,FALSE,Eating out
+1240,2025-09-20,Restaurant visit,219,304,401,501,Expense,152.49,FALSE,Eating out
+1241,2025-09-26,Public transport ticket,210,305,404,501,Expense,73.27,FALSE,Transport expense
+1242,2025-09-22,Public transport ticket,211,305,401,501,Expense,70.6,FALSE,Transport expense
+1243,2025-09-11,Public transport ticket,210,305,404,501,Expense,102.23,FALSE,Transport expense
+1244,2025-09-04,Public transport ticket,211,305,404,501,Expense,83.56,FALSE,Transport expense
+1245,2025-09-27,Doctor appointment,217,307,401,501,Expense,218.96,FALSE,Medical visit
+1246,2025-09-14,Cinema or event ticket,218,308,401,501,Expense,112.05,FALSE,Entertainment expense
+1247,2025-09-21,Online course purchase,221,313,401,501,Expense,215.5,FALSE,Learning and development
+1248,2025-10-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1249,2025-10-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1250,2025-10-05,Utilities payment,214,302,405,501,Expense,506.34,TRUE,Electricity and utilities
+1251,2025-10-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1252,2025-10-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1253,2025-10-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1254,2025-10-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1255,2025-10-14,Grocery shopping,204,303,404,501,Expense,138.01,FALSE,Variable grocery expense
+1256,2025-10-27,Grocery shopping,203,303,401,501,Expense,130.21,FALSE,Variable grocery expense
+1257,2025-10-08,Grocery shopping,204,303,404,501,Expense,182.57,FALSE,Variable grocery expense
+1258,2025-10-11,Grocery shopping,204,303,401,501,Expense,168.98,FALSE,Variable grocery expense
+1259,2025-10-06,Grocery shopping,204,303,404,501,Expense,118.18,FALSE,Variable grocery expense
+1260,2025-10-11,Grocery shopping,204,303,404,501,Expense,238.46,FALSE,Variable grocery expense
+1261,2025-10-18,Convenience store purchase,205,303,401,501,Expense,43.41,FALSE,Small daily purchase
+1262,2025-10-07,Convenience store purchase,205,303,401,501,Expense,28.27,FALSE,Small daily purchase
+1263,2025-10-14,Convenience store purchase,205,303,404,501,Expense,45.53,FALSE,Small daily purchase
+1264,2025-10-08,Convenience store purchase,205,303,403,501,Expense,41.19,FALSE,Small daily purchase
+1265,2025-10-15,Restaurant visit,219,304,401,501,Expense,57.56,FALSE,Eating out
+1266,2025-10-08,Restaurant visit,219,304,404,501,Expense,138.39,FALSE,Eating out
+1267,2025-10-10,Restaurant visit,219,304,404,501,Expense,108.89,FALSE,Eating out
+1268,2025-10-17,Restaurant visit,219,304,404,501,Expense,102.44,FALSE,Eating out
+1269,2025-10-24,Restaurant visit,219,304,404,501,Expense,92.49,FALSE,Eating out
+1270,2025-10-09,Public transport ticket,211,305,404,501,Expense,43.05,FALSE,Transport expense
+1271,2025-10-24,Public transport ticket,210,305,404,501,Expense,31.96,FALSE,Transport expense
+1272,2025-10-18,Public transport ticket,210,305,401,501,Expense,41.64,FALSE,Transport expense
+1273,2025-10-16,Fuel purchase,212,306,401,501,Expense,227.0,FALSE,Fuel expense
+1274,2025-10-19,Pharmacy purchase,216,307,401,501,Expense,157.19,FALSE,Health-related expense
+1275,2025-10-20,Cinema or event ticket,218,308,404,501,Expense,137.95,FALSE,Entertainment expense
+1276,2025-10-27,Cinema or event ticket,218,308,401,501,Expense,66.11,FALSE,Entertainment expense
+1277,2025-10-12,Cinema or event ticket,218,308,401,501,Expense,66.74,FALSE,Entertainment expense
+1278,2025-11-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1279,2025-11-20,Freelance project income,202,102,402,501,Income,1449.62,FALSE,Additional project income
+1280,2025-11-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1281,2025-11-05,Utilities payment,214,302,405,501,Expense,371.52,TRUE,Electricity and utilities
+1282,2025-11-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1283,2025-11-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1284,2025-11-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1285,2025-11-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1286,2025-11-18,Grocery shopping,203,303,404,501,Expense,205.54,FALSE,Variable grocery expense
+1287,2025-11-21,Grocery shopping,203,303,404,501,Expense,98.47,FALSE,Variable grocery expense
+1288,2025-11-19,Grocery shopping,203,303,404,501,Expense,164.49,FALSE,Variable grocery expense
+1289,2025-11-11,Grocery shopping,204,303,401,501,Expense,253.79,FALSE,Variable grocery expense
+1290,2025-11-28,Grocery shopping,204,303,404,501,Expense,100.54,FALSE,Variable grocery expense
+1291,2025-11-13,Convenience store purchase,205,303,404,501,Expense,19.07,FALSE,Small daily purchase
+1292,2025-11-21,Convenience store purchase,205,303,403,501,Expense,17.95,FALSE,Small daily purchase
+1293,2025-11-26,Restaurant visit,219,304,404,501,Expense,56.5,FALSE,Eating out
+1294,2025-11-08,Restaurant visit,219,304,401,501,Expense,120.34,FALSE,Eating out
+1295,2025-11-14,Restaurant visit,219,304,401,501,Expense,149.72,FALSE,Eating out
+1296,2025-11-15,Public transport ticket,211,305,404,501,Expense,106.02,FALSE,Transport expense
+1297,2025-11-14,Public transport ticket,211,305,401,501,Expense,80.96,FALSE,Transport expense
+1298,2025-11-24,Public transport ticket,210,305,401,501,Expense,82.55,FALSE,Transport expense
+1299,2025-11-22,Cinema or event ticket,218,308,401,501,Expense,51.49,FALSE,Entertainment expense
+1300,2025-11-06,Cinema or event ticket,218,308,401,501,Expense,51.44,FALSE,Entertainment expense
+1301,2025-11-14,Clothes shopping,209,311,401,501,Expense,391.28,FALSE,Clothing purchase
+1302,2025-11-16,Electronics purchase,209,312,401,501,Expense,426.11,FALSE,Electronics purchase
+1303,2025-12-10,Monthly salary,201,101,402,501,Income,6200.0,TRUE,Base monthly salary
+1304,2025-12-01,Monthly rent,213,301,402,501,Expense,2200.0,TRUE,Fixed housing cost
+1305,2025-12-05,Utilities payment,214,302,405,501,Expense,398.98,TRUE,Electricity and utilities
+1306,2025-12-06,Internet bill,215,302,405,501,Expense,89.99,TRUE,Monthly internet payment
+1307,2025-12-07,Netflix subscription,206,309,405,501,Expense,49.0,TRUE,Streaming subscription
+1308,2025-12-08,Spotify subscription,207,309,405,501,Expense,23.99,TRUE,Music subscription
+1309,2025-12-12,Emergency fund transfer,222,315,402,502,Expense,800.0,TRUE,Monthly savings transfer
+1310,2025-12-03,Grocery shopping,204,303,401,501,Expense,246.3,FALSE,Variable grocery expense
+1311,2025-12-14,Grocery shopping,203,303,401,501,Expense,178.02,FALSE,Variable grocery expense
+1312,2025-12-09,Grocery shopping,203,303,401,501,Expense,92.85,FALSE,Variable grocery expense
+1313,2025-12-26,Grocery shopping,203,303,404,501,Expense,187.11,FALSE,Variable grocery expense
+1314,2025-12-15,Grocery shopping,204,303,401,501,Expense,164.37,FALSE,Variable grocery expense
+1315,2025-12-23,Grocery shopping,204,303,404,501,Expense,249.68,FALSE,Variable grocery expense
+1316,2025-12-15,Convenience store purchase,205,303,401,501,Expense,47.89,FALSE,Small daily purchase
+1317,2025-12-14,Convenience store purchase,205,303,403,501,Expense,32.73,FALSE,Small daily purchase
+1318,2025-12-09,Convenience store purchase,205,303,401,501,Expense,20.02,FALSE,Small daily purchase
+1319,2025-12-22,Convenience store purchase,205,303,403,501,Expense,47.29,FALSE,Small daily purchase
+1320,2025-12-01,Convenience store purchase,205,303,403,501,Expense,60.18,FALSE,Small daily purchase
+1321,2025-12-25,Restaurant visit,219,304,401,501,Expense,108.52,FALSE,Eating out
+1322,2025-12-21,Restaurant visit,219,304,404,501,Expense,168.67,FALSE,Eating out
+1323,2025-12-19,Public transport ticket,211,305,404,501,Expense,116.91,FALSE,Transport expense
+1324,2025-12-16,Public transport ticket,211,305,404,501,Expense,53.33,FALSE,Transport expense
+1325,2025-12-22,Fuel purchase,212,306,401,501,Expense,197.78,FALSE,Fuel expense
+1326,2025-12-11,Cinema or event ticket,218,308,404,501,Expense,107.84,FALSE,Entertainment expense
+1327,2025-12-10,Travel accommodation,223,314,401,501,Expense,1262.58,FALSE,Travel expense
