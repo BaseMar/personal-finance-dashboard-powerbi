@@ -136,7 +136,7 @@ Budget data is stored in a separate fact table because planned budget values hav
 
 Transactions are recorded at transaction level, while budget values are planned monthly by category.
 
-Synthetic Data
+## Synthetic Data
 
 The project uses synthetic sample data generated with Python. No real personal financial data is included in the repository.
 
