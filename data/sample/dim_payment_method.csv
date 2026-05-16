@@ -1,0 +1,6 @@
+payment_method_id,payment_method
+401,Card
+402,Bank Transfer
+403,Cash
+404,BLIK
+405,Direct Debit

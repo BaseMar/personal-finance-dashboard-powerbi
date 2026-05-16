@@ -1,0 +1,21 @@
+category_id,category_name,subcategory_name,category_type,expense_type,need_or_want
+101,Salary,Base Salary,Income,N/A,N/A
+102,Freelance,Project Income,Income,N/A,N/A
+103,Bonus,Performance Bonus,Income,N/A,N/A
+104,Other Income,Miscellaneous Income,Income,N/A,N/A
+301,Housing,Rent,Expense,Fixed,Need
+302,Housing,Utilities,Expense,Fixed,Need
+303,Food,Groceries,Expense,Variable,Need
+304,Food,Restaurants,Expense,Variable,Want
+305,Transport,Public Transport,Expense,Variable,Need
+306,Transport,Fuel,Expense,Variable,Need
+307,Health,Medical,Expense,Variable,Need
+308,Entertainment,Movies and Events,Expense,Variable,Want
+309,Subscriptions,Streaming Services,Expense,Fixed,Want
+310,Subscriptions,Software,Expense,Fixed,Want
+311,Shopping,Clothes,Expense,Variable,Want
+312,Shopping,Electronics,Expense,Variable,Want
+313,Education,Courses and Books,Expense,Variable,Need
+314,Travel,Accommodation,Expense,Variable,Want
+315,Savings,Emergency Fund,Expense,Fixed,Need
+316,Other,Other Expenses,Expense,Variable,Want

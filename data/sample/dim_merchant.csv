@@ -1,0 +1,24 @@
+merchant_id,merchant_name,merchant_type
+201,Employer,Income Source
+202,Freelance Client,Income Source
+203,Biedronka,Grocery Store
+204,Lidl,Grocery Store
+205,Zabka,Convenience Store
+206,Netflix,Streaming Service
+207,Spotify,Streaming Service
+208,Amazon,Online Shopping
+209,Allegro,Online Shopping
+210,PKP,Transport
+211,Jakdojade,Transport
+212,Shell,Fuel Station
+213,Landlord,Housing
+214,Energy Provider,Utilities
+215,Internet Provider,Utilities
+216,Pharmacy,Health
+217,Doctor,Health
+218,Cinema,Entertainment
+219,Restaurant,Restaurant
+220,Coursera,Education
+221,Udemy,Education
+222,Savings Account,Savings
+223,Other Merchant,Other
