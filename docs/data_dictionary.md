@@ -142,8 +142,4 @@ The dashboard will use the following main categories:
 
 # Data Privacy
 
-The repository will not contain real personal financial data.
-
-Only anonymized or synthetic sample data will be included in the `data/sample` directory.
-
-Private raw data should be stored locally in `data/raw` and must not be committed to the repository.
+The repository will not contain real personal financial data. Only anonymized or synthetic sample data will be included in the `data/sample` directory.
