@@ -1,0 +1,236 @@
+# DAX Measures
+
+## Overview
+This document describes the DAX measures used in the Personal Finance Intelligence Dashboard.
+
+The measures are grouped into the following areas:
+
+- Income and expenses
+- Cash flow
+- Budget tracking
+- Transaction analysis
+- Fixed and variable expenses
+- Needs vs wants analysis
+- Month-over-month analysis
+- Savings recommendations
+
+---
+
+# Core Financial Measures
+
+## Total Income
+Calculates total income from transactions marked as `Income`.
+
+```DAX
+Total Income =
+CALCULATE(
+    SUM(FactTransactions[amount]),
+    FactTransactions[transaction_type] = "Income"
+)
+```
+
+## Total Expenses
+Calculates total expenses from transactions marked as Expense.
+
+```DAX
+Total Expenses =
+CALCULATE(
+    SUM(FactTransactions[amount]),
+    FactTransactions[transaction_type] = "Expense"
+)
+```
+
+## Net Cash Flow
+Calculates the difference between income and expenses.
+
+```DAX
+Net Cash Flow =
+[Total Income] - [Total Expenses]
+```
+
+## Savings Rate
+Calculates the percentage of income remaining after expenses.
+
+```DAX
+Savings Rate =
+DIVIDE(
+    [Net Cash Flow],
+    [Total Income]
+)
+```
+
+# Budget Measures
+
+## Planned Budget
+Calculates the total planned budget.
+
+```DAX
+Planned Budget =
+SUM(FactBudget[planned_amount])
+```
+
+## Budget Variance
+Calculates the difference between planned budget and actual expenses.
+
+```DAX
+Budget Variance =
+[Planned Budget] - [Total Expenses]
+```
+
+## Budget Usage %
+Calculates what percentage of the planned budget has been used.
+
+```DAX
+Budget Usage % =
+DIVIDE(
+    [Total Expenses],
+    [Planned Budget]
+)
+```
+
+# Transaction Measures
+
+## Transaction Count
+Counts the number of transactions.
+
+```DAX
+Transaction Count =
+COUNTROWS(FactTransactions)
+```
+
+## Average Transaction Amount
+Calculates the average transaction amount.
+
+```DAX
+Average Transaction Amount =
+AVERAGE(FactTransactions[amount])
+```
+
+## Average Daily Expense
+Calculates average daily expenses in the selected period.
+
+```DAX
+Average Daily Expense =
+DIVIDE(
+    [Total Expenses],
+    DISTINCTCOUNT(DimDate[Date])
+)
+```
+
+# Expense Structure Measures
+## Fixed Expenses
+Calculates expenses classified as fixed.
+
+```DAX
+Fixed Expenses =
+CALCULATE(
+    [Total Expenses],
+    DimCategory[expense_type] = "Fixed"
+)
+```
+
+## Variable Expenses
+Calculates expenses classified as variable.
+
+```DAX
+Variable Expenses =
+CALCULATE(
+    [Total Expenses],
+    DimCategory[expense_type] = "Variable"
+)
+```
+
+## Fixed Expenses %
+Calculates the share of fixed expenses in total expenses.
+
+```DAX
+Fixed Expenses % =
+DIVIDE(
+    [Fixed Expenses],
+    [Total Expenses]
+)
+```
+
+## Variable Expenses %
+Calculates the share of variable expenses in total expenses.
+
+```DAX
+Variable Expenses % =
+DIVIDE(
+    [Variable Expenses],
+    [Total Expenses]
+)
+```
+
+# Needs vs Wants Measures
+## Needs Expenses
+Calculates expenses classified as needs.
+
+```DAX
+Needs Expenses =
+CALCULATE(
+    [Total Expenses],
+    DimCategory[need_or_want] = "Need"
+)
+```
+
+## Wants Expenses
+Calculates expenses classified as wants.
+
+```DAX
+Wants Expenses =
+CALCULATE(
+    [Total Expenses],
+    DimCategory[need_or_want] = "Want"
+)
+```
+
+## Wants Expenses %
+Calculates the share of wants in total expenses.
+
+```DAX
+Wants Expenses % =
+DIVIDE(
+    [Wants Expenses],
+    [Total Expenses]
+)
+```
+
+## Recommended Savings From Wants
+Estimates potential savings by reducing wants-related expenses by 20%.
+
+```DAX
+Recommended Savings From Wants =
+[Wants Expenses] * 0.2
+```
+
+# Month-over-Month Measures
+## Previous Month Expenses
+Calculates expenses from the previous month.
+
+```DAX
+Previous Month Expenses =
+CALCULATE(
+    [Total Expenses],
+    DATEADD(DimDate[Date], -1, MONTH)
+)
+```
+
+## Expense MoM Change
+Calculates the difference between current and previous month expenses.
+
+```DAX
+Expense MoM Change =
+[Total Expenses] - [Previous Month Expenses]
+```
+
+## Expense MoM Change %
+Calculates percentage change in expenses compared to the previous month.
+
+```DAX
+Expense MoM Change % =
+DIVIDE(
+    [Expense MoM Change],
+    [Previous Month Expenses]
+)
+```
