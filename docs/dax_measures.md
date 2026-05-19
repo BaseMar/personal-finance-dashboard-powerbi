@@ -17,7 +17,6 @@ The measures are grouped into the following areas:
 ---
 
 # Core Financial Measures
-
 ## Total Income
 Calculates total income from transactions marked as `Income`.
 
@@ -58,9 +57,9 @@ DIVIDE(
     [Total Income]
 )
 ```
+---
 
 # Budget Measures
-
 ## Planned Budget
 Calculates the total planned budget.
 
@@ -87,9 +86,9 @@ DIVIDE(
     [Planned Budget]
 )
 ```
+---
 
 # Transaction Measures
-
 ## Transaction Count
 Counts the number of transactions.
 
@@ -116,6 +115,7 @@ DIVIDE(
     DISTINCTCOUNT(DimDate[Date])
 )
 ```
+---
 
 # Expense Structure Measures
 ## Fixed Expenses
@@ -162,6 +162,7 @@ DIVIDE(
 )
 ```
 
+---
 # Needs vs Wants Measures
 ## Needs Expenses
 Calculates expenses classified as needs.
@@ -204,6 +205,7 @@ Recommended Savings From Wants =
 [Wants Expenses] * 0.2
 ```
 
+---
 # Month-over-Month Measures
 ## Previous Month Expenses
 Calculates expenses from the previous month.
@@ -234,3 +236,56 @@ DIVIDE(
     [Previous Month Expenses]
 )
 ```
+
+## Savings Transfers
+Calculates the amount transferred to savings-related categories.
+
+```DAX
+Savings Transfers =
+CALCULATE(
+    [Total Expenses],
+    DimCategory[category_name] = "Savings"
+)
+```
+
+## Consumption Expenses
+Calculates total expenses excluding savings transfers. 
+
+```DAX
+Consumption Expenses =
+CALCULATE(
+    [Total Expenses],
+    DimCategory[category_name] <> "Savings"
+)
+```
+
+## Total Saved
+Calculates total saved amount as savings transfers plus remaining net cash flow.
+
+```DAX
+Total Saved =
+[Savings Transfers] + [Net Cash Flow]
+```
+
+## True Savings Rate
+Calculates the actual savings rate including both savings transfers and remaining net cash flow.
+
+```DAX
+True Savings Rate =
+DIVIDE(
+    [Total Saved],
+    [Total Income]
+)
+```
+
+## Consumption Ratio
+Calculates what percentage of income is spent on consumption expenses.
+
+```DAX
+Consumption Ratio =
+DIVIDE(
+    [Consumption Expenses],
+    [Total Income]
+)
+```
+---
