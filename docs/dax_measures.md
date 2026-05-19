@@ -125,7 +125,7 @@ Calculates expenses classified as fixed.
 Fixed Expenses =
 CALCULATE(
     [Total Expenses],
-    DimCategory[expense_type] = "Fixed"
+    KEEPFILTERS(DimCategory[expense_type] = "Fixed")
 )
 ```
 
@@ -136,7 +136,7 @@ Calculates expenses classified as variable.
 Variable Expenses =
 CALCULATE(
     [Total Expenses],
-    DimCategory[expense_type] = "Variable"
+    KEEPFILTERS(DimCategory[expense_type] = "Variable")
 )
 ```
 
@@ -171,7 +171,7 @@ Calculates expenses classified as needs.
 Needs Expenses =
 CALCULATE(
     [Total Expenses],
-    DimCategory[need_or_want] = "Need"
+    KEEPFILTERS(DimCategory[need_or_want] = "Need")
 )
 ```
 
@@ -182,7 +182,7 @@ Calculates expenses classified as wants.
 Wants Expenses =
 CALCULATE(
     [Total Expenses],
-    DimCategory[need_or_want] = "Want"
+    KEEPFILTERS(DimCategory[need_or_want] = "Want")
 )
 ```
 
@@ -244,7 +244,7 @@ Calculates the amount transferred to savings-related categories.
 Savings Transfers =
 CALCULATE(
     [Total Expenses],
-    DimCategory[category_name] = "Savings"
+    KEEPFILTERS(DimCategory[category_name] = "Savings")
 )
 ```
 
@@ -255,7 +255,7 @@ Calculates total expenses excluding savings transfers.
 Consumption Expenses =
 CALCULATE(
     [Total Expenses],
-    DimCategory[category_name] <> "Savings"
+    KEEPFILTERS(DimCategory[category_name] <> "Savings")
 )
 ```
 
@@ -288,4 +288,7 @@ DIVIDE(
     [Total Income]
 )
 ```
+---
+KEEPFILTERS is used to preserve the current filter context when additional category filters are applied inside CALCULATE.
+
 ---
