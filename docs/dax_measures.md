@@ -292,3 +292,73 @@ DIVIDE(
 KEEPFILTERS is used to preserve the current filter context when additional category filters are applied inside CALCULATE.
 
 ---
+
+# Expense Analysis Measures
+## Expense Share %
+Calculates the share of each category in total consumption expenses.
+
+```DAX
+Expense Share % =
+DIVIDE(
+    [Consumption Expenses],
+    CALCULATE(
+        [Consumption Expenses],
+        ALL(DimCategory[category_name])
+    )
+)
+```
+
+## Recurring Expenses
+Calculates expenses marked as recurring.
+
+```DAX
+Recurring Expenses =
+CALCULATE(
+    [Total Expenses],
+    KEEPFILTERS(FactTransactions[is_recurring] = TRUE())
+)
+```
+
+## Non-Recurring Expenses
+Calculates expenses not marked as recurring.
+```DAX
+Non-Recurring Expenses =
+CALCULATE(
+    [Total Expenses],
+    KEEPFILTERS(FactTransactions[is_recurring] = FALSE())
+)
+```
+
+## Weekend Expenses
+Calculates consumption expenses that occurred during weekends.
+```DAX
+Weekend Expenses =
+CALCULATE(
+    [Consumption Expenses],
+    KEEPFILTERS(DimDate[Is Weekend] = TRUE())
+)
+```
+
+## Weekend Expenses %
+Calculates the share of weekend expenses in total consumption expenses.
+```DAX
+Weekend Expenses % =
+DIVIDE(
+    [Weekend Expenses],
+    [Consumption Expenses]
+)
+```
+
+## Average Expense Transaction
+Calculates the average amount of a single consumption expense transaction.
+
+```DAX
+Average Expense Transaction =
+CALCULATE(
+    AVERAGE(FactTransactions[amount]),
+    KEEPFILTERS(FactTransactions[transaction_type] = "Expense"),
+    KEEPFILTERS(DimCategory[category_name] <> "Savings")
+)
+```
+
+---
