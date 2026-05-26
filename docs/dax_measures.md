@@ -378,7 +378,8 @@ Classifies each category as Within Budget, Near Limit or Over Budget.
 
 ## Categories Over Budget
 
-Counts how many categories exceeded the planned budget.
+Counts categories where budget usage is above 100%.  
+COALESCE is used to display 0 instead of blank when no categories exceed the budget.
 
 ## Categories Near Limit
 
