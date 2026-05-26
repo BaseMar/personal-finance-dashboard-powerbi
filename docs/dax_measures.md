@@ -362,3 +362,25 @@ CALCULATE(
 ```
 
 ---
+# Budget Analysis Measures
+
+## Budget Overrun
+
+Shows the amount by which actual expenses exceeded the planned budget.
+
+## Remaining Budget
+
+Shows the remaining budget when actual expenses are below the planned budget.
+
+## Budget Status
+
+Classifies each category as Within Budget, Near Limit or Over Budget.
+
+## Categories Over Budget
+
+Counts how many categories exceeded the planned budget.
+
+## Categories Near Limit
+
+Counts categories where budget usage is between 90% and 100%.
+---
