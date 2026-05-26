@@ -385,3 +385,25 @@ COALESCE is used to display 0 instead of blank when no categories exceed the bud
 
 Counts categories where budget usage is between 90% and 100%.
 ---
+
+# Savings and Recommendations Measures
+
+## Potential Savings 10%
+
+Estimates potential savings by reducing wants-related expenses by 10%.
+
+## Potential Savings 20%
+
+Estimates potential savings by reducing wants-related expenses by 20%.
+
+## Potential Savings 30%
+
+Estimates potential savings by reducing wants-related expenses by 30%.
+
+## Savings Gap to 20% Rate
+
+Calculates the difference between the current saved amount and the target amount based on a 20% savings rate.
+
+## Savings Recommendation
+
+Returns a simple recommendation based on the current true savings rate.
